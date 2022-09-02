@@ -13,7 +13,7 @@ def load(directory: str) -> dict:
         data = {}
 
         # Sets the corresponding columns in dict
-        # and its list of values
+        # And its list of values
         for column in columns:
             data[column] = list(df[column])
         return data
